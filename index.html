@@ -1,6 +1,6 @@
 ﻿<html>
 <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8">
     <title>Piano Virtual</title>
     <link rel="stylesheet" type="text/css" href="style/main.css" />
     <link rel="stylesheet" type="text/css" href="style/pace.css" />
@@ -17,20 +17,45 @@
     <script async type="text/javascript" src="js/DOM/index.js"></script>
     <script async type="text/javascript" src="js/DOM/window_dom.js"></script>
     <script async type="text/javascript" src="js/lastsession.js"></script>
+    <link rel="stylesheet" type="text/css" href="style/footer/main.css">
+    <link rel="stylesheet" type="text/css" href="style/footer/footer.css">
 </head>
 <body>
-    <a target="_blank" href="https://github.com/fajarbaiz/virtual-piano"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/121cd7cbdc3e4855075ea8b558508b91ac463ac2/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_green_007200.png"></a>
-    <div id="piano">
-        <div id="btns">
-            <div id="styled" class="text" onclick="piano.styler()">Styles</div>
+<br>
+    <div id="btns">
+            <div id="styled" class="text" onclick="piano.styler()">Color</div>
             <div id="assistd" class="text" onclick="piano.assist()">Key assist Off</div>
             <div id="recordd" class="text" onclick="win_fnc.viewer('recorder')">Recorder</div>
             <div id="sheetd" class="text" onclick="win_fnc.viewer('sheet')">Sheets</div>
         </div>
+        <br><br><br>
+    <div id="piano">
         <div id="white"></div>
         <div id="black"></div>
         <div id="audio" onerror="location.reload()"></div>
     </div>
     <div id='win'></div>
+<br>    
+<center>
+<h4>*Mainkan virtualpiano di desktop, bukan di mobile.</h4>
+</center>
+
+    <footer class="footer-basic-centered">
+        <h3><a target="_blank" href="https://fajarbaiz.com/contact">Donate</a></h3>
+        <br>
+            <p class="footer-company-motto">Special Thanks to</p>
+<br>
+            <p class="footer-links">
+                <a target="_blank" href="https://github.com/otanim">Arman Yeghiazaryan</a>
+                |
+                <a target="_blank" href="https://fajarbaiz.com/">fajarbaiz.com</a>
+            </p>
+<br>
+            <p class="footer-company-name">2019 &copy; VirtualPiano.inc</p>
+
+        </footer>
+
+        <!-- Demo ads. Please ignore and remove. -->
+
 </body>
 </html>

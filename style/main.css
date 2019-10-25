@@ -9,8 +9,8 @@ body {
     -ms-user-select: none;
     -webkit-user-select: none;
     user-select: none;
-    margin: 35px 0 0 0;
-    background: url(../style/img/bk/5.jpg);
+    margin: 0% auto;
+    background-image: url('img/bk/0.jpg');
     cursor: default;
 }
 
@@ -71,15 +71,16 @@ input[type="button"] {
     position: absolute;
     z-index: 4;
     margin: 0 auto;
-    margin-top: 3px;
-    margin-left: 393px;
-    padding-left: 40px;
-    width: 450px;
+    margin-top: 15px;
+    margin-left: 415px;
+    padding-left: 50px;
+    padding-top: 6px;
+    width: 438px;
     height: 40px;
-    border: 1px solid #303030;
+    border: 1px solid orange;
     background-color: #404040;
-    font-size: 30px;
-    font-family: Vdj;
+    font-size: 20px;
+    font-family: apple;
 }
 
 .text {
